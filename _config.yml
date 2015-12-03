@@ -1,0 +1,25 @@
+# Site settings
+title: Famoi | Financial Asset Management Operations Infrastructure
+email: daf@cappui.com
+description: Famoi Limited is a Subsidery company of Cappui Limited a UK Reigstered Company. 
+baseurl: '/famoi'
+url: "http://famoi.com" # the base hostname & protocol for your site
+twitter_username: Famoi
+port: 3000
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+
+#Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: Duncan Alistair Forbes
+      layout: "post"
+      category: progamming
+ 
